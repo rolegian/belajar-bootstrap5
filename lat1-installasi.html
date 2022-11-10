@@ -10,6 +10,17 @@
 </head>
 <body>
     
+    <!--
+        Jenis Grid sistem:
+        .col-*: digunakan untuk mengatur grid secara otomatis
+        .col-sm-*: digunakan untuk mengatur grid pada ukuran layar monitor yang berukuran kecil
+        seperti smartphone(>=576px)
+        .col-md-*:  digunakan untuk mengatur grid pada ukuran layar monitor yang berukuran sedang(>=720px)
+        .col-lg-*:  digunakan untuk mengatur grid pada ukuran layar monitor yang berukuran besar(>=992px)
+        .col-x1-*: digunakan untuk mengatur grid pada ukuran layar monitor yang berukuran ekstra besar(>=1200px)
+
+        *nb= wajib menggunakan class row jika ingin menggunakan grid sistem
+    -->
     <div class="container">
         <div class="bg-success text-white text-center">contoh .container</div>
     </div>
@@ -17,7 +28,14 @@
     <hr>
 
     <div class="container-fluid">
-        <div class="bg-primary text-white text-center">contoh .container-fluid</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bg-primary text-white text-center">ini contoh col-12</div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-success text-white text-center">ini contoh col-6</div>
+            </div>
+        </div>
     </div>
 
 

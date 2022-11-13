@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+      -Breadcrump adalah sebuah komponene pada website yang berguna sebagai
+      penanda lokasi user sekarasng ini pada website kita. Dengan adanya breadcrump,
+      membuat website lebih terasa familiar bagi user atau pengguna
+    -->
+
+    <div class="container">
+        <h5>Contoh 1</h5>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+
+        <hr>
+
+        <h5>Contoh 2</h5>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item "><a href="#">Home</a> </li>
+                <li class="breadcrumb-item active" aria-current="page">Data Siswa</li>
+            </ol>
+        </nav>
+
+        <hr>
+
+        <h5>Contoh 3</h5>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item "><a href="#">Home</a> </li>
+                <li class="breadcrumb-item "><a href="#">Data Siswa</a> </li>
+                <li class="breadcrumb-item active" aria-current="page">Data Siswa</li>
+            </ol>
+        </nav>
+
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

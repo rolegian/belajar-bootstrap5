@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+        *card pada bootstrap 5
+        -card memiliki tiga bagian di dalamnya, yaitu header, body fdan footer. {ada bagian header
+    card biasanya dituliskan dari judul konten yang berkaitan, pada bagian footer card biasanya dituliskan keterangan lebih lanjut
+    atau bisa juga dibuat tombol.
+    -->
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5>Belajar bootstrap</h5>
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit cum, eligendi, quia saepe aliquam voluptatem corporis dignissimos tempora, nostrum dolore numquam minus neque rerum perferendis animi explicabo quaerat ex temporibus!
+            </div>
+            <div class="card-footer">
+                Channel Youtobe maskananasik
+            </div>
+        </div>
+
+        <hr>
+        <div class="card bg-success text-white">
+            <div class="card-header">
+                <h5>Belajar bootstrap</h5>
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit cum, eligendi, quia saepe aliquam voluptatem corporis dignissimos tempora, nostrum dolore numquam minus neque rerum perferendis animi explicabo quaerat ex temporibus!
+            </div>
+            <div class="card-footer">
+                Channel Youtobe maskananasik
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="card">
+            <div class="card-header bg-warning text-white">
+                <h5>Belajar bootstrap</h5>
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit cum, eligendi, quia saepe aliquam voluptatem corporis dignissimos tempora, nostrum dolore numquam minus neque rerum perferendis animi explicabo quaerat ex temporibus!
+            </div>
+            <div class="card-footer bg-warning text-white">
+                Channel Youtobe maskananasik
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Card yang menggunakan gambar-->
+        <div class="card">
+            <div class="card-header bg-warning text-white">
+              <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit cum, eligendi, quia saepe aliquam voluptatem corporis dignissimos tempora, nostrum dolore numquam minus neque rerum perferendis animi explicabo quaerat ex temporibus!
+            </div>
+            <div class="card-footer">
+                Channel Youtobe maskananasik
+            </div>
+        </div>
+        <hr>
+
+
+        <!-- Card Group-->
+        <div class="card-group">
+            <!---Awal card-->
+            <div class="card me-2">
+              <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+        
+                <div class="card-body">
+                    <h5 class="card-title">Belajar Bootstrap 5</h5>
+                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem. Dolores quibusdam quasi, quisquam fuga assumenda nisi! Eligendi voluptates numquam suscipit repellendus voluptatem, aliquid unde, iure sequi reiciendis cum et?</p>
+                    <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+                </div>
+            </div>
+            <!--Akhir card-->
+             <!---Awal card-->
+             <div class="card me-2">
+                <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+          
+                  <div class="card-body">
+                      <h5 class="card-title">Belajar Bootstrap 5</h5>
+                      <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem. Dolores quibusdam quasi, quisquam fuga assumenda nisi! Eligendi voluptates numquam suscipit repellendus voluptatem, aliquid unde, iure sequi reiciendis cum et?</p>
+                      <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+                  </div>
+              </div>
+              <!--Akhir card-->
+               <!---Awal card-->
+            <div class="card me-2">
+                <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+          
+                  <div class="card-body">
+                      <h5 class="card-title">Belajar Bootstrap 5</h5>
+                      <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem. Dolores quibusdam quasi, quisquam fuga assumenda nisi! Eligendi voluptates numquam suscipit repellendus voluptatem, aliquid unde, iure sequi reiciendis cum et?</p>
+                      <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+                  </div>
+              </div>
+              <!--Akhir card-->
+
+              <hr>
+
+              <!-- card grid-->
+              <!--KArena menggunakan grid maka wajib menggunakan class row-->
+              <div class="row">
+                <div class="col-md-3">
+                      <!---Awal card-->
+                            <div class="card me-2">
+                                <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+          
+                                <div class="card-body">
+                                    <h5 class="card-title">Belajar Bootstrap 5</h5>
+                                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem. Dolores quibusdam quasi, quisquam fuga assumenda nisi! Eligendi voluptates numquam suscipit repellendus voluptatem, aliquid unde, iure sequi reiciendis cum et?</p>
+                                    <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+                                </div>
+                            </div>
+                    <!--Akhir card-->
+                </div>
+                <div class="col-md-5">
+                    <!---Awal card-->
+                          <div class="card me-2">
+                              <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+        
+                              <div class="card-body">
+                                  <h5 class="card-title">Belajar Bootstrap 5</h5>
+                                  <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem. Dolores quibusdam quasi, quisquam fuga assumenda nisi! Eligendi voluptates numquam suscipit repellendus voluptatem, aliquid unde, iure sequi reiciendis cum et?</p>
+                                  <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+                              </div>
+                          </div>
+                  <!--Akhir card-->
+              </div>
+              <div class="col-md-3">
+                <!---Awal card-->
+                      <div class="card me-2">
+                          <img src="img/pexels-andrew-neel-3201735.jpg" alt="" class="card-img-top">
+    
+                          <div class="card-body">
+                              <h5 class="card-title">Belajar Bootstrap 5</h5>
+                              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem. Dolores quibusdam quasi, quisquam fuga assumenda nisi! Eligendi voluptates numquam suscipit repellendus voluptatem, aliquid unde, iure sequi reiciendis cum et?</p>
+                              <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+                          </div>
+                      </div>
+              <!--Akhir card-->
+          </div>
+              </div>
+
+        </div>
+        <!--Akhir container-->
+
+
+       
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

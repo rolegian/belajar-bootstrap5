@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+        Foe=rm adalah salah satu komponen paling penting pada sebuah website. Jika tampilan form tidak rapi
+        dan bersih, maka aplikasi/web yang dibangun akan kurang menarik dilihat.
+        Yang akan dibahas:
+        * form control: biasanya digunakan pada elemen <input> dan <textarea>
+            -- group
+            -- Disabled/Readonly
+            -- Color
+            -- Date/waktu
+            -- File input
+    -->
+    <div class="container">
+       
+        <br>
+        <h5>Form Pendaftaran Magang</h5>
+        <br>
+      <form>
+        <input type="text" class="form-control" placeholder="Nama Lengkap ..">
+        <br>
+        <input type="number" class="form-control" placeholder="No. HP..">
+        <br>
+        <textarea class="form-control" placeholder="Deskripsikan diri Anda"></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary"> Submit</button>
+    </form> 
+
+    <hr>
+
+    <!--Group-->
+    <form>
+        <div class="mb-3">
+            <label>Nama Depan</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama depan Anda">
+        </div>
+        <div class="mb-3">
+            <label>Nama belakang</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama belakang Anda">
+        </div>
+        <div class="mb-3">
+            <label>N0 HP</label>
+            <input type="number" class="form-control" placeholder="Masukkan nama depan Anda">
+        </div>
+        <div class="mb-3">
+            <label>Tanggal Lahir</label>
+            <input type="date" class="form-control form-control-date">
+        </div>
+
+
+        <div class="mb-3">
+            <label>Deskripsi Diri</label>
+            <textarea class="form-control" placeholder="Ceritakan tentang diri Anda"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label>Color</label>
+            <input type="color" class="form-control form-control-color">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-danger"> Submit</button>
+    </form>
+
+    <hr>
+    <h5>Contoh form upload (input file ke browser)</h5>
+    <form >
+        <div class="mb-3">
+            <label >Pilih file</label>
+            <input type="file" class="form-control" placeholder="Upload CV Anda">
+        </div>
+    </form>
+
+        <hr class="mb-0">
+        <small class="text-mute mt-0 pt-0">-- Channel BA</small>
+          
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

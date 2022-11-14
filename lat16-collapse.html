@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+        - Collapse pada bootstrap digunakan untuk menempilkan dan menyembunyikan suatu konten.
+        - Collapse bisa menggunakan link/button.
+    -->
+
+    <div class="container">
+       
+        <!-- Collapse dengan Button-->
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebatutah"
+        aria-expanded="false" aria-controls="collapsebatutah">Klik Aku dong</button>
+        <!--Isi Collapse-->
+        <div class="collapse" id="collapsebatutah">
+            <div class="card card-body">
+                <!--Isi konten-->
+                <h5>Tutorial belajar Bootstrap</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque autem unde architecto sed sint. Perspiciatis deleniti aperiam fugit voluptatem consectetur et quae obcaecati neque itaque pariatur! Ipsum laborum nulla eligendi.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!---Collapse dengan link/ a href-->
+
+         <!-- Collapse dengan Button-->
+         <a href="#collapsebatutahA" data-bs-toggle="collapse" role="button"
+         aria-expanded="false" aria-controls="collapsebatutahA" class="btn btn-danger">Klik Aku aja</a>
+         <!--Isi Collapse-->
+         <div class="collapse" id="collapsebatutahA">
+             <div class="card card-body">
+                 <!--Isi konten-->
+                 <h5>Tutorial belajar Bootstrap</h5>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque autem unde architecto sed sint. Perspiciatis deleniti aperiam fugit voluptatem consectetur et quae obcaecati neque itaque pariatur! Ipsum laborum nulla eligendi.</p>
+             </div>
+         </div>
+          
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

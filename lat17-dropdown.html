@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+        - Dropdown pada bootstrap
+        - Dropdown bisa digunakan dengan link atau button
+        - dropdown pada bootstrap dibuat menggunakan library pihak ketiga yaitu propper.js
+--->
+    <div class="container">
+       
+       <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button"  id="dropdownba" 
+        data-bs-toggle="dropdown" aria-expanded="false">Tutorial</button>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownba">
+            <li><a href="#" class="dropdown-item">HTML</a></li>
+            <li><a href="#" class="dropdown-item">CSS</a></li>
+            <li><a href="#" class="dropdown-item">Java</a></li>
+            <li><a href="#" class="dropdown-item">Python</a></li>
+        </ul>
+       </div> 
+
+       <hr>
+
+       <div class="dropdown">
+        <a href="#" class="btn btn-danger dropdown-toggle" role="button"
+        id="dropdownba1" data-bs-toggle="dropdown" aria-expanded="false"
+        >Aksi</a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownba1">
+            <li><a href="#" class="dropdown-item">Simpan</a></li>
+            <li><a href="#" class="dropdown-item">Edit</a></li>
+            <li><a href="#" class="dropdown-item">hapus</a></li>
+        </ul>
+       </div> 
+          
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

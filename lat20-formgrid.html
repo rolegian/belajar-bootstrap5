@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+       Lanjutan form pada Bootstrap 5:
+       -form grid/layout
+       - form validasi
+--->
+    <div class="container">
+       <!--Form grid-->
+       <h5>Form Grid</h5>
+       <div class="row g-2">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="username">
+        </div>
+        <div class="col">
+            <input type="password" class="form-control" placeholder="password">
+        </div>
+       </div>
+          
+
+       <hr>
+       <h5>Form Data Mahasiswa</h5>
+       <form>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Nama Lengkap</label>
+                <input type="text" class="form-control" placeholder="masukkan nama Anda"></input>
+            </div>
+            <div class="col-md-2">
+                <label>NIM</label>
+                <input type="number" class="form-control" placeholder="masukkan nim Anda"></input>
+            </div>
+            <div class="col-md-4">
+                <label>Jurusan</label>
+                <select class="form-select">
+                    <option value="">Sistem Informasi</option>
+                    <option value="">Teknik Informatika</option>
+                    <option value="">Manajemen Informatika</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label>No Hp</label>
+                <input type="text" class="form-control" placeholder="masukkan no HP Anda"></input>
+            </div>
+            <div class="col-md-4 mb-2">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="masukkan email Anda"></input>
+            </div>
+            <div class="col-md-4 mb-2">
+                <label>Alamat</label>
+                <textarea class="form-control" ></textarea>
+            </div>
+        </div>
+       </form>
+
+       <hr>
+    <div class="card">
+       <div class="card-body">
+            <h5 class="card-title">Belajar Bootstrap 5</h5>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Nama Lengkap</label>
+                        <input type="text" class="form-control" placeholder="masukkan nama Anda"></input>
+                    </div>
+                    <div class="col-md-2">
+                        <label>NIM</label>
+                        <input type="number" class="form-control" placeholder="masukkan nim Anda"></input>
+                    </div>
+                    <div class="col-md-4">
+                        <label>Jurusan</label>
+                        <select class="form-select">
+                            <option value="">Sistem Informasi</option>
+                            <option value="">Teknik Informatika</option>
+                            <option value="">Manajemen Informatika</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label>No Hp</label>
+                        <input type="text" class="form-control" placeholder="masukkan no HP Anda"></input>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="masukkan email Anda"></input>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label>Alamat</label>
+                        <textarea class="form-control" ></textarea>
+                    </div>
+                </div>
+            </form>
+            <p class="card-text"><small class="text-muted">Diposting 3 jam lalu</small></p>
+        </div>
+        <div class="card-footer">
+            <div class="col-md-2 mx-auto">
+                <button class="btn btn-primary">Simpan</button>
+                <button class="btn btn-danger">Batal</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+       <hr class="mb-0">
+       <small class="text-mute mt-0 pt-0">-- Channel BA</small>
+         
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

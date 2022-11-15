@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+       Nav atau navs adalah singkatan dari navigation. Nav merupakan komponen yang disediakan oleh boootstrap untuk membuat
+       navigasi pada website.
+       biasanya navs atau navigasi berguna sebagai menu yang mengarahkan pengunjung ke halaman2 website
+       sesuai keinginan.
+    -->
+    <div class="container">
+        <ul class="nav">
+            <li class="nav item">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav item">
+                <a href="#" class="nav-link">Kontak Kami</a>
+            </li>
+            <li class="nav item">
+                <a href="#" class="nav-link">Tentang</a>
+            </li>
+            <li class="nav item">
+                <a href="#" class="nav-link">Blog</a>
+            </li>
+        </ul>
+
+        <hr>
+        <!--Nav dengan link-->
+        <nav class="nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Kontak Kami</a>
+            <a href="#" class="nav-link">Tentang</a>
+            <a href="#" class="nav-link">Blog</a>
+        </nav>
+
+        <hr>
+        <!--Posisi Nav-->
+        <nav class="nav justify-content-center"> <!--di tengah-->
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Kontak Kami</a>
+            <a href="#" class="nav-link">Tentang</a>
+            <a href="#" class="nav-link">Blog</a>
+        </nav>
+
+        <nav class="nav justify-content-end"> <!--di kiri layar-->
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Kontak Kami</a>
+            <a href="#" class="nav-link">Tentang</a>
+            <a href="#" class="nav-link">Blog</a>
+        </nav>
+
+        <hr>
+        <!--Nav Vertikal-->
+        <nav class="nav fix-column"> <!--vertikal-->
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Kontak Kami</a>
+            <a href="#" class="nav-link">Tentang</a>
+            <a href="#" class="nav-link">Blog</a>
+        </nav>
+
+        <hr>
+        <!--Nav Tabs-->
+        <ul class="nav nav-tabs">
+            <li class="nav item">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav item">
+                <a href="#" class="nav-link">Kontak Kami</a>
+            </li>
+            <li class="nav item">
+                <a href="#" class="nav-link">Tentang</a>
+            </li>
+            <li class="nav item">
+                <a href="#" class="nav-link">Blog</a>
+            </li>
+        </ul>
+
+        <hr>
+        <!--Tabs Javascript-->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h5>Home</h5>
+                <p>Selamat adatang di batutah Academy</p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h5>Tentang kami</h5>
+                <p>Kami adalah platform pendidikan</p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h5>Kontak kami</h5>
+                <p>IG: Batutah Academy <br> Youtube: batutah Academy</p>
+            </div>
+          </div>
+  
+      
+
+        <hr class="mb-0">
+        <small class="text-mute mt-0 pt-0">-- Channel BA</small>
+          
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

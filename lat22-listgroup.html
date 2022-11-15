@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+        List group adalah komponen yang disediakan oleh bootstrap 5 untuk membuat konten list
+    -->
+    <div class="container">
+        <h5>Daftar Mata Kuliah</h5>
+        <ul class="list-group">
+            <li class="list-group-item">Pendahuluan Oseanografi</li>
+            <li class="list-group-item">Oseanografi Biologi</li>
+            <li class="list-group-item">Oseanografi Kimia</li>
+        </ul>
+
+        <hr>
+        <!--List grup dengan link-->
+        <h5>Menu Utama</h5>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-action">Dashboard</a>
+            <a href="#" class="list-group-item list-group-action">Blog</a>
+            <a href="#" class="list-group-item list-group-action">ganti Password</a>
+            <a href="#" class="list-group-item list-group-action">Pengaturan</a>
+        </div>
+
+        <hr>
+        <!--List grup dengan badge-->
+        <h5>Arsip File</h5>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Pendidikan
+              <span class="badge bg-primary rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Teknologi
+              <span class="badge bg-primary rounded-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Agriculture
+              <span class="badge bg-primary rounded-pill">1</span>
+            </li>
+          </ul>
+
+        <hr class="mb-0">
+        <small class="text-mute mt-0 pt-0">-- Channel BA</small>
+          
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

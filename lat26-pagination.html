@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+
+    <!----css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--
+        - Pagination merupakan sebuah komponen website ysng terdiri dari penmoran halaman website.
+    -->
+    <div class="container">
+        <nav aria-label="page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a href="#" class="page-link">Sebelumnya</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link">Selanjutnya</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+        <!--Custom pagination-->
+        <nav aria-label="page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a href="#" class="page-link" aria-label="sebelumnya">
+                    <span aria-hidden="True">&laquo;</span>
+                </a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link" aria-label="selanjutnya">
+                    <span aria-hidden="True">&raquo;</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <hr>
+        <!--Custom ukuran pagination-->
+        <!--
+            pagination-lg: untuk besar
+            pagination-sm: kecil
+            tanpa pagination-: ukuran sedang (default)
+        -->
+        <!--Ukuran besar-->
+        <nav aria-label="page navigation example">
+            <ul class="pagination pagination-lg">
+                <li class="page-item"><a href="#" class="page-link" aria-label="sebelumnya">
+                    <span aria-hidden="True">&laquo;</span>
+                </a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link" aria-label="selanjutnya">
+                    <span aria-hidden="True">&raquo;</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <!--Ukuran kecil-->
+        <nav aria-label="page navigation example">
+            <ul class="pagination pagination-sm">
+                <li class="page-item"><a href="#" class="page-link" aria-label="sebelumnya">
+                    <span aria-hidden="True">&laquo;</span>
+                </a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link" aria-label="selanjutnya">
+                    <span aria-hidden="True">&raquo;</span>
+                </a></li>
+            </ul>
+        </nav>
+      
+        <hr>
+        <!--Posisi pagination-->
+        <!--teangah-->
+        <nav aria-label="page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a href="#" class="page-link" aria-label="sebelumnya">
+                    <span aria-hidden="True">&laquo;</span>
+                </a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link" aria-label="selanjutnya">
+                    <span aria-hidden="True">&raquo;</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <hr class="mb-0">
+        <small class="text-mute mt-0 pt-0">-- Channel BA</small>
+          
+    </div>
+
+
+    <!---JS BOOtstrap-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
